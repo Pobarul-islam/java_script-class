@@ -5,7 +5,24 @@
 	<title>javascript</title>
 </head>
 <body>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+
 	<script>
+		
+		var data = document.getElementsByTagName('h1');
+		for(var x=0;x<data.length; x++){
+			document.write(data[x].innerHTML+'</br>');
+		}
 		//locgical operation
 		
 
@@ -137,15 +154,26 @@
 		}while(x<15);
 		*/
 		
-/*		//Arrau
+/*		//Array
 		
 		var abul =new Array(10,20,30,40);
 		var data = Array(20.3500);
 		var data=[10,20,30,];
 		*/
-		
+		/*
 		var data = [10,20,30,40]
-		document.write(data);
+		for(var pobarul in data){
+			document.write(data[pobarul])+'(</br>)';
+		}
+		*/
+	/*	
+		var data = [10,20,30,40,50,'Pobarul islam']
+		for(var x in data){
+			document.write(data[x]+'</br>')
+		}
+			*/
+		
+		
 	</script>
 </body>
 </html>
