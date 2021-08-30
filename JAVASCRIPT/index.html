@@ -5,7 +5,7 @@
 	<title>javascript</title>
 </head>
 <body>
-
+<!--
 <h1>Lorem ipsum dolor sit amet.</h1>
 
 <h1>Lorem ipsum dolor sit amet.</h1>
@@ -14,15 +14,18 @@
 
 <h1>Lorem ipsum dolor sit amet.</h1>
 
-<h1>Lorem ipsum dolor sit amet.</h1>
+<h1>Lorem ipsum dolor sit amet.</h1> --->
+
 
 
 	<script>
-		
+		/*
 		var data = document.getElementsByTagName('h1');
 		for(var x=0;x<data.length; x++){
 			document.write(data[x].innerHTML+'</br>');
 		}
+		*/
+		
 		//locgical operation
 		
 
@@ -171,9 +174,92 @@
 		for(var x in data){
 			document.write(data[x]+'</br>')
 		}
+		*/
+		
+		/*	//pop
+		
+		var data = [10, 20 , 30 , 40];
+		document.write(data+'</br>');
+		
+		data.push(100);
+		document.write(data); 
+	/*	
+		
+		/*		//push
+		var data = [10, 20, 30, 40, 50];
+		document.write(data +'</br>');
+		
+		data.pop(data);
+		document.write(data);
 			*/
+	
+		/*
+		//shift
+		var data = [10,20,30,40,50];
+		document.write(data +'</br>');
 		
+		data.shift(60);
+		document.write(data);
+		*/
 		
+/*
+		//unshift
+		
+		var data = [10,20,30,40,50];
+		document.write(data +'</br>');
+		
+		data.unshift(60);
+		document.write(data);
+	*/
+			//function
+		/*
+		function abul(){
+			var x = 10;
+			var y = 20;
+			var z = x+y;
+			document.write(z);
+		}
+		
+		abul()
+		*/
+		function shop(x){
+			var data1=2*x;
+			var data2=2+x;
+			var data3=data1+data2;
+			return data3
+		}
+/*
+		var shop1 = shop(30);
+		document.write('<br>')
+		var shop2 = shop(20);
+		document.write('<br>')
+		var shop3 = shop(20);
+		document.write('<br>')
+		document.write(shop1+shop2+shop3);
+
+*/
+
+/*
+
+//kilometer to metre
+function kilometerToMeter(kilometer){
+	var miter = kilometer*1000;
+	return miter;
+}
+
+document.write(kilometerToMeter (5))
+*/
+
+
+	 function budgetCal(watch , mobile , laptop){
+		 var data1 = watch*10;
+		 var data2 = mobile*1;
+		 var data3 = laptop*1;
+		 var result = watch+mobile+laptop;
+		 return result;
+	 }
+
+	 document.write(budgetCal(50 , 100 , 500));
 	</script>
 </body>
 </html>
