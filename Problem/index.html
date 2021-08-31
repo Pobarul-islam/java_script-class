@@ -7,18 +7,67 @@
     <title>hotelcost_problem_solving</title>
 </head>
 <body>
+   
+   		<h1>Problem: 01</h1> <br>
+   	<h3>If you stay in a hotel from 1st to 10th, the cost will be 100 tk per day, if you stay from 11th to 20th, you will get 20% commission so rent will be 80 tk and if you stay from 20th to 30th, you will get 50% commission 50 tk rent ?</h3>
+   	
+   
+
+
     <script>
-     function hotelCost(dayOne , dayTwo , dayThree){
-         var data1 = dayOne*100;
-         var data2 = dayOne*80;
-         var data3 = dayThree*50;
-         var result = datOne + dayTwo + dayThree;
-         return result; 
-     }
-
-     document.write(hotelCost(10+))
-     
-
+	/*
+		
+		var day1to10 = 100;
+		var day11to20 = 80;
+		var day21to30 = 50;
+		
+		if(day1to10>day11to20){
+			document.write('If you stay will 1st to 10th so Your hotel cost will be 1,000')
+			
+		}
+		else if(day11to20<day21to30){
+			document.write('If you stay will 11th to 20th so Your hotel cost will be 800')
+			
+		}
+		else{
+			document.write('If you stay will 20th to every day so Your hotel cost will be 500')
+			
+		}
+	
+		*/
+		
+		/*
+		var hotelcost = 50;
+		switch(hotelcost){
+			case 50:
+				document.write('If you stay will 20th to every day so Your hotel cost will be 500 taka');
+				break;
+				
+			case 80:
+				document.write('If you stay will 11th to 20th so Your hotel cost will be 800');
+				break;
+				
+			case 100:
+				document.write('If you stay will 1st to 10th so Your hotel cost will be 1,000')
+				break;
+				
+			default:
+				document.write('Before staying at the hotel, calculate how much it will cost?')
+		}
+		*/
+		
+	 const str = 'The quick brown fox jumped over the lazy dog'
+	 
+	 const longestWord = (str) => {
+		 const strArray = str.split(' ');
+		 const sortedStrArray = strArray.sort(
+		 (strA,strB =>){
+		  return strB.length - strA.length;
+		  }
+		 );
+			 return sortedStrArray[0];
+	 }
+			 consol.log(longestWord(str));
     </script>
 
 </body>
